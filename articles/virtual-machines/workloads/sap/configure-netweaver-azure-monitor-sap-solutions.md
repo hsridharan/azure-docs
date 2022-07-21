@@ -66,7 +66,7 @@ After you restart the SAP service, check that your updated rules are applied to 
 
 1. Run the following command. Replace `<instance number>` with your system's instance number.
 
-    `sapcontrol -nr <instance number>; -function ParameterValue service/protectedwebmethods`
+    `sapcontrol -nr <instance number> -function ParameterValue service/protectedwebmethods`
 
 1. Log in as another user.
 
